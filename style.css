@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Outfit:wght@100..900&display=swap");
+
+:root{
+  --background-color: hsl(212, 45%, 89%);
+  --card-background-color: hsl(0, 0%, 100%);
+  --card-text-color:hsl(218, 44%, 22%);
+  --secondary-text-color: hsl(220, 15%, 55%);
+ --link-color:hsl(228, 45%, 44%);
+ --shadow-color:hsla(217, 45%, 22%, 0.2);
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+  background-color: var(--background-color);
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card {
+  border: none;
+  padding: 1rem;
+  margin: 1.5rem;
+  background-color: var(--card-background-color);
+  border-radius: 1.3rem;
+  width: 34vh;
+  height: 56vh;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0 1px 25px var(--shadow-color);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 0.6rem;
+  object-fit: cover;
+  margin-bottom: 1.3rem;
+}
+
+.card-title,
+.card-body,
+.card-text,
+.card-footer,
+.card-footer a {
+  background-color: transparent;
+}
+
+.card-title {
+  margin-bottom: 1.3rem;
+  text-align: start;
+  color: var(--card-text-color);
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.card-text {
+  color: var(--secondary-text-color);
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 1.4rem;
+}
+
+.footer p {
+  font-size: 0.75rem;
+}
+
+.footer a {
+  color: var(--link-color);
+  font-size: 0.75rem;
+  text-decoration: none;
+}
+
+@media (max-width: 1440px) {
+  .card {
+    width: 17%;
+    height: auto;
+  }
+
+  .card-title {
+    font-size: 1.3rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .card {
+    width: 20%;
+    height: auto;
+  }
+
+  .card-title {
+    font-size: 1.3rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .card {
+    width: 24%;
+    height: auto;
+  }
+
+  .card-title {
+    font-size: 1.3rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 33%;
+    height: auto;
+  }
+
+  .card-title {
+    font-size: 1.3rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    width: 50%;
+    height: auto;
+  }
+  .card-title {
+    font-size: 1.3rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .card {
+    width: 78%;
+    height: auto;
+    position: relative;
+  }
+  .card-title {
+    font-size: 1.3rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+
+  .footer{
+    position: relative;
+    left: 5%;
+  }
+}
