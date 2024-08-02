@@ -21,8 +21,8 @@
 
 ### Links
 
--  [Solution URL](https://your-solution-url.com)
-- [Live Site URL](https://your-live-site-url.com)
+-  [Solution URL]()
+- [Live Site URL]()
 
 ## My process
 
@@ -145,3 +145,4 @@ By focusing on these areas, I aim to refine my skills and continue building a so
 ## Acknowledgments
 
 I want to give a hat tip to these two YouTubers, *Slaying the Dragon* and *Bro Code*, who helped me understand basic concepts of HTML & CSS.
+
