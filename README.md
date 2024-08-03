@@ -17,12 +17,12 @@
 
 ### Screenshot
 
-![](./screenshot.png)
+![](/images/screenshot.png)
 
 ### Links
 
--  [Solution URL](https://github.com/anastDev/qr-code-component_FrontendMentor.git)
-- [Live Site URL]()
+- [Solution URL](https://github.com/anastDev/qr-code-component_FrontendMentor.git)
+- [Live Site URL](https://anastdev.github.io/qr-code-component_FrontendMentor/)
 
 ## My process
 
@@ -45,8 +45,9 @@ One of the key challenges was organizing the card's elements—the image and the
 
 ```
 display: flex;
-flex-wrap: wrap;. 
+flex-wrap: wrap;.
 ```
+
 This approach allowed me to create a responsive layout that adapts to different screen sizes while maintaining the design's integrity.
 
 **Styling the Card**
@@ -65,6 +66,7 @@ Positioning the card in the center of the page posed another challenge. Initiall
   flex-direction: column;
 }
 ```
+
 This method successfully centered the card both vertically and horizontally, ensuring a balanced layout.
 
 **Making the Design Responsive**
@@ -92,6 +94,7 @@ To ensure the card was responsive across various devices, I utilized Media Queri
   }
 }
 ```
+
 ```
 @media (max-width: 1440px) {
   .card {
@@ -108,6 +111,7 @@ To ensure the card was responsive across various devices, I utilized Media Queri
   }
 }
 ```
+
 Throughout this process, I made various adjustments to the sizes and layout to ensure that each element fit perfectly and looked good on any screen size.
 
 In conclusion, this project was a great learning experience that allowed me to explore different aspects of web design, from layout creation to responsive design. By overcoming each challenge, I gained a deeper understanding of how to craft a flexible, visually appealing, and user-friendly interface.
@@ -129,8 +133,7 @@ As I continue to grow in my web development journey, there are several key areas
 3. Enhancing Responsiveness with Media Queries
 
 - Creating responsive designs is crucial in today’s multi-device world. I want to become more comfortable and proficient with Media Queries to ensure that my designs are not only visually appealing but also functional across a wide range of screen sizes.
-By focusing on these areas, I aim to refine my skills and continue building a solid foundation in web development.
-
+  By focusing on these areas, I aim to refine my skills and continue building a solid foundation in web development.
 
 ### Useful resources
 
@@ -141,8 +144,6 @@ By focusing on these areas, I aim to refine my skills and continue building a so
 
 - Frontend Mentor - [@anastDev](https://www.frontendmentor.io/profile/anastDev)
 
-
 ## Acknowledgments
 
-I want to give a hat tip to these two YouTubers, *Slaying the Dragon* and *Bro Code*, who helped me understand basic concepts of HTML & CSS.
-
+I want to give a hat tip to these two YouTubers, _Slaying the Dragon_ and _Bro Code_, who helped me understand basic concepts of HTML & CSS.
