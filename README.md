@@ -21,7 +21,7 @@
 
 ### Links
 
--  [Solution URL]()
+-  [Solution URL](https://github.com/anastDev/qr-code-component_FrontendMentor.git)
 - [Live Site URL]()
 
 ## My process
